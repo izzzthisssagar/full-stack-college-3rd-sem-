@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a simple HTML document to demonstrate the form layout">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+    <meta name="author" content="Sagar Thapa">
+    <style> h1 {color: rgb(255, 17, 0); font-size: 30px;}</style>
+    <style>span {color: red;}</style>
+    <title>Student Detail Form</title>
+</head>
+<body>
+    <header>
+         <h1> Student Detail Form</h1>
+        </header>
+
+    <main>
+        <p><span>compulsory field*</span></p>
+        <form>
+            <label>First Name: <span>*</span></label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="text" name ="FirstName" required>
+            <br>
+            <label>Middle Name:</label>
+            <input type="text" name ="MiddleName">
+            <br>
+            <label>Last Name:</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="text" name = "LastName" required >
+            <br>
+            <label>Age: </label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" name = "LastName" required>
+            <br>
+            <label>Email:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email">
+            <br>
+            <label>Phone:</label>&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel">
+            <br>
+            <label>Address:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- <input type="text" name="Address" required> -->
+            <textarea name ="address" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="button" value="Cancel">
+            
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Copyright by Sagar Thapa 2025</p>
+    </footer>
+    
+</body>
+</html>
+
+
+
+<hr>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a simple HTML document to demonstrate the form layout">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+    <meta name="author" content="Sagar Thapa">
+    <style> h1 {color: rgb(255, 17, 0); font-size: 30px;}</style>
+    <style>span {color: red;}</style>
+    <title>Student Detail Form</title>
+</head>
+<body>
+    <header>
+         <h1> Student Detail Form</h1>
+        </header>
+
+    <main>
+        <table>
+            <p><span>compulsory field*</span></p>
+          <form action="submit" method="post">
+            <tr>
+            <td><label>First Name: <span>*</span></label></td>
+            <td><input type="text" name ="FirstName" required></td>
+            </tr>
+            
+            <tr>
+            <td><label>Middle Name:<span>*</SPAN></label></td>
+            <td><input type="text" name ="MiddleName" required></td>
+            </tr>
+            
+            <tr>
+            <td><label>Last Name:<span>*</span></label></td>
+            <td><input type="text" name = "LastName" required ></td>
+            </tr>
+           
+            <tr>
+            <td><label>Age:<span>*</span></label></td>
+            <td><input type="number" name = "LastName" required></td>
+            </tr>
+         
+            
+            <tr>
+                <td><label>Email:<span>*</span></label></td>
+                <td><input type="email" name ="Email" required></td>
+            </tr>
+            
+            <tr>
+                <td><label>Phone:<span>*</span></label></td>
+                <td><input type="tel" name ="phone" required></td>
+            </tr>
+            
+            <tr>
+                <td><label>Address: <span>*</span></label></td>
+                <td><input type="text" name="Address" required></td>
+                <!-- <textarea name ="address" rows="4" cols="50" required></textarea> -->
+                
+                <tr>
+                <td><label for="Gender">Gender: <span>*</span></label></td>
+                <td><input type="radio" name ="Gender" value="Male"> Male
+                <input type="radio" name ="Gender" value="Female"> Female
+                <input type="radio" name ="Gender" value="Other"> Other</td>
+                </tr>
+              
+                <tr>
+                    <td><label>Study <span>*</span></label></td>
+                    <td><input type="checkbox" name="Study" value="SEE">SEE
+                    <input type="checkbox" name="Study" value="+2">+2
+                    <input type="checkbox" name ="Study" value="Bachelors"> Bachelors
+                    <input type="checkbox" name ="Study" value="Masters"> Masters
+                    <input type="checkbox" name ="Study" value="PhD"> PhD</td>
+                </tr>
+        </table>
+            <LABEL>PASSWORD</LABEL>
+            <input type="password" name="password" required>
+            <br>
+            <br>
+
+            <label >Country: <span>*</span></label></label>
+            <select name = "country">
+                <option value="Select" group="country">Select an option</option>
+               <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="Russia">Russia</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Peru">Peru</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Guyana">Guyana</option>
+                <option value="Suriname">Suriname</option>
+                   
+            
+            
+            </select>
+            <br>
+            <br>
+
+            
+            <button type="submit" value="Submit" class="btn">Submit</button>
+
+            <br>
+
+                            
+               <fieldset>
+                <legend>Login Info</legend>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                </fieldset> 
+                <br>
+                <br>
+                <input list="browsers">
+                <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                </datalist>
+                <br>
+                <br>
+
+                            
+            
+            <label>Confirm Password:</label>
+            <input type="password" name="password" required>
+            <br>
+            <br>
+            <label for="subscribe" class="rr">subscribe <span>*</span></label>
+            <input type="checkbox" name="subscribe" id="subscribe" required>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="button" value="Cancel">
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Copyright by Sagar Thapa 2025</p>
+    </footer>
+    
+</body>
+</html>
+
+
+<!-- form ko main 2 ota attribute hunxa action(kun chai form ma data post hunxa) rw method(kun chai data post hunxa) rw
+action ma form ma data post hunxa
+method ma data post hunxa -->
+
+<!-- button tag  herera aaunay 
+option bhitra opt group bhanney tag hunxa
+fieldset
+legend 
+datalist 
+output  -->
